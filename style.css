@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    background-color: white;
+    margin: 0;
+} 
+
+.container{
+    /* border: 10px solid olive; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh
+}
+
+.boxLeft{
+    padding: 10px;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+}
+
+.boxRight{
+    align-self: flex-end;
+    padding: 10px;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+}
+
+.box1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 15%;
+    background-color: #ffe6a7;
+}
+
+.header1{
+    margin-right: 30px ;
+}
+
+.box2{
+    display: flex;
+    width: 70%;
+    height: 70%;
+    background-color: #f3e0a1;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header2{
+    margin-left: 30px ;
+}
+
+.box3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 15%;
+    background-color: #ffe6a7;
+}
+
+.box4{
+    display: flex;
+    width: 20%;
+    height: 85%;
+    background-color: #f3e0a1;
+    justify-content: center;
+    align-items: center;
+}
+
+.box5{
+    display: flex;
+    width: 20%;
+    height: 15%;
+    background-color: #ffe6a7;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+}
+
+.text{
+    font: small-caps bold 24px/1 sans-serif;
+    color: #f56b6b;
+    font-size: 20px;
+    width: 70%;
+}
+
+.header{
+    color: #995f76; font-family: 'Raleway',sans-serif; font-size: 30px; font-weight: 800; line-height: 72px; text-align: center; text-transform: uppercase;
+}
+
+.box4 ul{
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+}
+
+.box4 ul li{
+    list-style-type: none;
+    margin: 60px;
+}
+
+.box4 ul li a{
+    text-decoration: none;
+    background-color: #d1b3b3;
+    display: block;
+    width: 150px;
+    border: 1px black solid;
+    padding: 20px;
+    color: black;
+    transition: 0.3s;
+}
+
+.box4 ul li a:hover{
+    transform: scale(1.1);
+    background-color: #96697b;
+    color: #f3e0a1;
+}
+
+ol li{
+    font: small-caps bold 24px/1 sans-serif;
+    color: #f56b6b;
+    font-size: 20px;
+}
